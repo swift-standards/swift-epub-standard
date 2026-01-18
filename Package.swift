@@ -9,7 +9,7 @@ let package = Package(
         .iOS(.v26),
         .tvOS(.v26),
         .watchOS(.v26),
-        .visionOS(.v26),
+        .visionOS(.v26)
     ],
     products: [
         .library(
@@ -18,18 +18,14 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(path: "../swift-w3c-epub"),
+        .package(path: "../swift-w3c-epub")
     ],
     targets: [
         .target(
             name: "EPUB Standard",
             dependencies: [
-                .product(name: "W3C EPUB", package: "swift-w3c-epub"),
+                .product(name: "W3C EPUB", package: "swift-w3c-epub")
             ]
-        ),
-        .testTarget(
-            name: "EPUB Standard Tests",
-            dependencies: ["EPUB Standard"]
         )
     ],
     swiftLanguageModes: [.v6]
