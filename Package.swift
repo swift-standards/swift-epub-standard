@@ -18,7 +18,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/swift-standards/swift-w3c-epub.git", from: "0.0.1"),
+        .package(path: "../swift-w3c-epub"),
     ],
     targets: [
         .target(
