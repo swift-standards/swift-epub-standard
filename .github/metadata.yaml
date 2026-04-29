@@ -1,0 +1,9 @@
+# .github/metadata.yaml
+# Triaged by AI-assisted bulk pass (2026-04-29).
+description: "EPUB standard wrapper combining W3C EPUB 3.3 in Swift."
+topics:
+  - standards
+  - epub
+  - ebooks
+  - document-format
+homepage: "https://swift-institute.org"
