@@ -1,5 +1,5 @@
-import Testing
 import EPUB_Standard
+import Testing
 
 @Suite("EPUB Standard Tests")
 struct EPUB_Standard_Tests {
