@@ -1,8 +1,8 @@
 import EPUB_Standard
 import Testing
 
-@Suite("EPUB Standard Tests")
-struct EPUB_Standard_Tests {
+@Suite
+struct `EPUB Standard Tests` {
     @Suite
     struct Unit {
         @Test
