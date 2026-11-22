@@ -11,7 +11,7 @@ extension `EPUB_Standard_ Tests` {
             @Test
             func `W3C EPUB is exported`() {
 
-                let version = W3C_EPUB.Version.v3_3
+                let version = W3C.EPUB.Version.v3_3
                 #expect(version.major == 3)
                 #expect(version.minor == 3)
             }
